@@ -1,0 +1,96 @@
+.bg-grey {
+    background-color: #f8f8f8;
+}
+.nav-menu {
+    text-transform: uppercase;
+    color: #341d3d;
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+.no-line {
+    text-decoration: none;
+}
+.no-marker {
+    list-style-type: none;
+}
+.name-shop {
+    color: #590a5f;
+    font-size: 35px;
+    font-weight: 1000;
+}
+.wellcom {
+    color: #841173;
+    font-size: 25px;
+    font-weight: 700;
+}
+.copy {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+}
+.header-2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.header-3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.shot-description{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.long-description {
+    color:  #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.specifications {
+    color: #707070;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 17px;
+    list-style-image: url(http://snar-e.com/snar-e/snar-e/forum/images/misc/sticky.gif);
+}
+.function {
+    color: #707070;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 17px;
+}
+.name-field {
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+}
+.shot-field {
+    width: 200px;
+    height: 25px;
+    text-align: left;
+    font-style: italic;
+    font-size: 15px;
+    color: #707070;
+}
+.header-contacts {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.address {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.border-img {
+    border: 4px solid #590a5f;
+}
