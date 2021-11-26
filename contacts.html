@@ -7,6 +7,7 @@
 </head>
 <body>
 <header class="bg-grey">
+	<img class="logo" src="https://i.pinimg.com/736x/57/09/d0/5709d00dc0ae0cf5398897cf1c4fc0ce.jpg" alt="logo">
 	<ul class="nav-menu">
 		<li class="no-marker"><a class="no-line" href="./index.html">Главная</a></li>
 		<li class="no-marker"><a class="no-line" href="./catalog/Catalog.html">Каталог</a></li>
@@ -16,27 +17,42 @@
 </header>
 <form class="bg-grey" action="">
 	<h2 class="header-contacts">Напишите нам</h2>
-	<p class="name-field">
-		Имя <input class="shot-field" type="text" placeholder="Иван"><br>
-		E-mail <input  class="shot-field"type="email" placeholder="mail"><br>
-		Ваш пол <input type="radio" name="pol">М
-		<input type="radio" name="pol"> Ж <br>
-		Дата рождения<input type="date"><br>
-		Тема <br><input class="shot-field" type="text" placeholder="Тема"><br>
-		Текстовое поле <br><textarea cols="25" rows="5"></textarea><br>
-		<button type="submit">Отправить</button>
-		<button type="reset">Очистить</button>
-	</p>
+	<ul class="name-field no-marker">
+		<li>Имя <label>
+			<input class="shot-field" type="text" placeholder="Иван">
+		</label></li>
+		<li>E-mail <label>
+			<input class="shot-field-mail" type="email" placeholder="mail">
+		</label></li>
+		<li>Ваш пол
+			<input type="radio" id="M" name="pol">
+			<label for="M">М</label>
+			<input type="radio" id="W" name="pol">
+			<label for="W">Ж</label>
+		</li>
+		<li>Дата рождения<label>
+			<input type="date">
+		</label></li>
+		<li>Тема <br><label>
+			<input class="shot-field" type="text" placeholder="Тема">
+		</label></li>
+		<li>Текстовое поле <br><label>
+			<textarea cols="25" rows="5"></textarea>
+		</label><br>
+			<button type="submit">Отправить</button>
+			<button type="reset">Очистить</button>
+		</li>
+	</ul>
+
 </form>
 
 
 <section class="bg-grey">
 	<h3 class="header-contacts">Адрес</h3>
 	<ul class="address">
-		<li>Номер телефона +7 (909) 056-65-45</li>
+		<li>Номер телефона 8(800)888-600</li>
 		<li>Адрес: г. Хабаровск, ул. Постышева, д. 22</li>
 		<li>E-mail: Spectrshop@mail.ru</li>
-		<li>Мы работаем ежедневно с 9-00 до 20-00</li>
 		<li>Карта</li>
 	</ul>
 	<script type="text/javascript" charset="utf-8" async
