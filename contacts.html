@@ -6,16 +6,19 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="bg-grey">
-	<img class="logo" src="https://i.pinimg.com/736x/57/09/d0/5709d00dc0ae0cf5398897cf1c4fc0ce.jpg" alt="logo">
+<header>
+	<a href="index.html"
+	   target="_blank">
+		<img class="logo" src="https://i.pinimg.com/736x/57/09/d0/5709d00dc0ae0cf5398897cf1c4fc0ce.jpg" alt="logo">
+	</a>
 	<ul class="nav-menu">
-		<li class="no-marker"><a class="no-line" href="./index.html">Главная</a></li>
-		<li class="no-marker"><a class="no-line" href="./catalog/Catalog.html">Каталог</a></li>
-		<li class="no-marker"><a class="no-line" href="./contacts.html">Контакты</a></li>
+		<li class="no-marker menu-link"><a class="no-line" href="./index.html">Главная</a></li>
+		<li class="no-marker menu-link"><a class="no-line" href="./catalog/Catalog.html">Каталог</a></li>
+		<li class="no-marker menu-link"><a class="no-line" href="./contacts.html">Контакты</a></li>
 	</ul>
 	<hr>
 </header>
-<form class="bg-grey" action="">
+<form class="bg" action="">
 	<h2 class="header-contacts">Напишите нам</h2>
 	<ul class="name-field no-marker">
 		<li>Имя <label>
@@ -43,11 +46,8 @@
 			<button type="reset">Очистить</button>
 		</li>
 	</ul>
-
 </form>
-
-
-<section class="bg-grey">
+<section class="bg">
 	<h3 class="header-contacts">Адрес</h3>
 	<ul class="address">
 		<li>Номер телефона 8(800)888-600</li>
@@ -55,9 +55,15 @@
 		<li>E-mail: Spectrshop@mail.ru</li>
 		<li>Карта</li>
 	</ul>
-	<script type="text/javascript" charset="utf-8" async
-	        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1e63f39b7a0a379a61b5182cf1f518353203dcbe16625c16ce2f7ea72f37e327&amp;width=573&amp;height=460&amp;lang=ru_RU&amp;scroll=true"></script>
+	
+	<div class="map">
+		<script type="text/javascript" charset="utf-8" async
+		        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1e63f39b7a0a379a61b5182cf1f518353203dcbe16625c16ce2f7ea72f37e327&amp;width=573&amp;height=460&amp;lang=ru_RU&amp;scroll=true"></script>
+	</div>
 </section>
+<footer>
+	<i class="copy">&copy Все права защищены</i>
+</footer>
 
 </body>
 </html>
