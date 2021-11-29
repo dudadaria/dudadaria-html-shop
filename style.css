@@ -86,14 +86,13 @@ footer {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
 }
 
 .nav-product {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .product {
@@ -130,8 +129,11 @@ footer {
 }
 
 .text-product {
-    padding: 30px;
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    justify-content: space-between;
 }
 
 .bay {
@@ -140,7 +142,6 @@ footer {
     font-style: italic;
     font-size: larger;
     color: #590a5f;
-    position: absolute;
     margin: 20px 10px;
     background-color: #ffc3be;
     padding: 3px 0 3px 7px;
@@ -157,7 +158,6 @@ footer {
 
 .indent {
     margin-top: 20px;
-    position: relative;
 }
 
 table {
