@@ -218,8 +218,11 @@ td {
     font-size: 14px;
     font-style: normal;
     line-height: 17px;
-    list-style-image: url(http://snar-e.com/snar-e/snar-e/forum/images/misc/sticky.gif);
 }
+
+.specifications>li:before{
+    content: url("http://snar-e.com/snar-e/snar-e/forum/images/misc/sticky.gif");
+ }
 
 .function {
     color: #707070;
@@ -236,22 +239,24 @@ td {
 }
 
 .shot-field,
-.shot-field-mail {
+.shot-field-mail,
+.shot-field-date {
     width: 200px;
     height: 25px;
     text-align: left;
     font-style: italic;
     font-size: 15px;
-    text-transform: capitalize;
 }
 
 .shot-field {
     color: #707070;
+    text-transform: capitalize
 }
 
 .shot-field-mail:focus {
     color: blue;
     background-color: #fff6fe;
+    text-transform: capitalize
 }
 
 .header-contacts {
